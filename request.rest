@@ -1,0 +1,15 @@
+GET http://localhost:3000/user
+###
+GET http://localhost:3000/user/1
+###
+curl -X POST http://localhost:3000/user 
+-H "Content-Type: application/json" 
+-d '{
+        "name": "John Doe", 
+        "email": "johndoe@mail.com", 
+        "password": "$2y$12$hYdvaU5TD4k9q2JwwMttNushDt69yZpW/szjuiCIv.BMAfJrrflJW"
+    }'
+###
+
+
+
